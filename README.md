@@ -1,1 +1,7 @@
 # AI_P7-Air-Paradis-Sentiment-Analysis_code
+
+Ce projet vise à développer un prototype d’API de prédiction de sentiments pour le compte de la compagnie aérienne fictive “Air Paradis”, dans le but d’aider cette dernière à anticiper les bad buzz sur les réseaux sociaux. L’objectif est de fournir une solution permettant de prédire, à partir du contenu d’un tweet, s’il exprime un sentiment positif ou négatif. Ce prototype utilise des données open-source de tweets annotés pour l’entraînement des modèles de machine learning, sans recours aux données client de la compagnie.
+
+Afin de tester plusieurs approches, ce projet intègre deux types de modèles : un modèle classique pour la rapidité d'implémentation et un modèle avancé utilisant des réseaux de neurones et différentes représentations textuelles pour optimiser la précision des prédictions. Le modèle final est ensuite déployé via une API sur le Cloud, permettant son intégration future avec une interface utilisateur locale.
+
+En complément, ce projet adopte une démarche MLOps visant à assurer la qualité et la traçabilité des expérimentations et des déploiements de modèles. La gestion des modèles est réalisée avec MLFlow pour centraliser le suivi et le stockage des versions du modèle. La performance en production est suivie avec Azure Application Insights, permettant d’alerter en cas de mauvaise prédiction répétée, dans l’optique d’une amélioration continue du modèle.
